@@ -44,7 +44,7 @@
             this.ActualizarVerduraButton = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.EliminarVerduraButton = new System.Windows.Forms.Button();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.TienditaTabControl = new System.Windows.Forms.TabControl();
             this.GestionarVerdurasTabPage = new System.Windows.Forms.TabPage();
             this.GestionarVentasTabPage = new System.Windows.Forms.TabPage();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -60,15 +60,15 @@
             this.VerdurasComboBox = new System.Windows.Forms.ComboBox();
             this.VentasListBox = new System.Windows.Forms.ListBox();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.ClientesFrecuentesLabel = new System.Windows.Forms.Label();
+            this.VerdurasmasVendidasLabel = new System.Windows.Forms.Label();
             this.VerdurasmasVendidasListBox = new System.Windows.Forms.ListBox();
             this.ClientesFrecuentesListBox = new System.Windows.Forms.ListBox();
-            this.label6 = new System.Windows.Forms.Label();
+            this.GestionarVentaLabel = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
-            this.tabControl1.SuspendLayout();
+            this.TienditaTabControl.SuspendLayout();
             this.GestionarVerdurasTabPage.SuspendLayout();
             this.GestionarVentasTabPage.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -240,15 +240,15 @@
             this.EliminarVerduraButton.UseVisualStyleBackColor = true;
             this.EliminarVerduraButton.Click += new System.EventHandler(this.EliminarVerduraButton_Click);
             // 
-            // tabControl1
+            // TienditaTabControl
             // 
-            this.tabControl1.Controls.Add(this.GestionarVerdurasTabPage);
-            this.tabControl1.Controls.Add(this.GestionarVentasTabPage);
-            this.tabControl1.Location = new System.Drawing.Point(12, 12);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(608, 447);
-            this.tabControl1.TabIndex = 6;
+            this.TienditaTabControl.Controls.Add(this.GestionarVerdurasTabPage);
+            this.TienditaTabControl.Controls.Add(this.GestionarVentasTabPage);
+            this.TienditaTabControl.Location = new System.Drawing.Point(12, 12);
+            this.TienditaTabControl.Name = "TienditaTabControl";
+            this.TienditaTabControl.SelectedIndex = 0;
+            this.TienditaTabControl.Size = new System.Drawing.Size(608, 447);
+            this.TienditaTabControl.TabIndex = 6;
             // 
             // GestionarVerdurasTabPage
             // 
@@ -268,7 +268,7 @@
             // 
             this.GestionarVentasTabPage.Controls.Add(this.panel5);
             this.GestionarVentasTabPage.Controls.Add(this.panel4);
-            this.GestionarVentasTabPage.Controls.Add(this.label6);
+            this.GestionarVentasTabPage.Controls.Add(this.GestionarVentaLabel);
             this.GestionarVentasTabPage.Location = new System.Drawing.Point(4, 24);
             this.GestionarVentasTabPage.Name = "GestionarVentasTabPage";
             this.GestionarVentasTabPage.Padding = new System.Windows.Forms.Padding(3);
@@ -311,7 +311,7 @@
             this.ProcesarVentaButton.Font = new System.Drawing.Font("Poppins", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.ProcesarVentaButton.Location = new System.Drawing.Point(3, 190);
             this.ProcesarVentaButton.Name = "ProcesarVentaButton";
-            this.ProcesarVentaButton.Size = new System.Drawing.Size(75, 23);
+            this.ProcesarVentaButton.Size = new System.Drawing.Size(173, 23);
             this.ProcesarVentaButton.TabIndex = 13;
             this.ProcesarVentaButton.Text = "Procesar Venta";
             this.ProcesarVentaButton.UseVisualStyleBackColor = true;
@@ -403,8 +403,8 @@
             // panel4
             // 
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel4.Controls.Add(this.label8);
-            this.panel4.Controls.Add(this.label7);
+            this.panel4.Controls.Add(this.ClientesFrecuentesLabel);
+            this.panel4.Controls.Add(this.VerdurasmasVendidasLabel);
             this.panel4.Controls.Add(this.VerdurasmasVendidasListBox);
             this.panel4.Controls.Add(this.ClientesFrecuentesListBox);
             this.panel4.Location = new System.Drawing.Point(6, 264);
@@ -412,25 +412,25 @@
             this.panel4.Size = new System.Drawing.Size(588, 149);
             this.panel4.TabIndex = 4;
             // 
-            // label8
+            // ClientesFrecuentesLabel
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Poppins Medium", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label8.Location = new System.Drawing.Point(260, 4);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(195, 22);
-            this.label8.TabIndex = 5;
-            this.label8.Text = "Clientes que mas compran";
+            this.ClientesFrecuentesLabel.AutoSize = true;
+            this.ClientesFrecuentesLabel.Font = new System.Drawing.Font("Poppins Medium", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.ClientesFrecuentesLabel.Location = new System.Drawing.Point(260, 4);
+            this.ClientesFrecuentesLabel.Name = "ClientesFrecuentesLabel";
+            this.ClientesFrecuentesLabel.Size = new System.Drawing.Size(144, 22);
+            this.ClientesFrecuentesLabel.TabIndex = 5;
+            this.ClientesFrecuentesLabel.Text = "Clientes Frecuentes";
             // 
-            // label7
+            // VerdurasmasVendidasLabel
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Poppins Medium", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label7.Location = new System.Drawing.Point(0, 4);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(177, 22);
-            this.label7.TabIndex = 4;
-            this.label7.Text = "Verduras mas vendidas:";
+            this.VerdurasmasVendidasLabel.AutoSize = true;
+            this.VerdurasmasVendidasLabel.Font = new System.Drawing.Font("Poppins Medium", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.VerdurasmasVendidasLabel.Location = new System.Drawing.Point(0, 4);
+            this.VerdurasmasVendidasLabel.Name = "VerdurasmasVendidasLabel";
+            this.VerdurasmasVendidasLabel.Size = new System.Drawing.Size(177, 22);
+            this.VerdurasmasVendidasLabel.TabIndex = 4;
+            this.VerdurasmasVendidasLabel.Text = "Verduras mas vendidas:";
             // 
             // VerdurasmasVendidasListBox
             // 
@@ -450,22 +450,22 @@
             this.ClientesFrecuentesListBox.Size = new System.Drawing.Size(237, 109);
             this.ClientesFrecuentesListBox.TabIndex = 2;
             // 
-            // label6
+            // GestionarVentaLabel
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Poppins Medium", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(6, 3);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(197, 34);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "Gestionar Ventas";
+            this.GestionarVentaLabel.AutoSize = true;
+            this.GestionarVentaLabel.Font = new System.Drawing.Font("Poppins Medium", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.GestionarVentaLabel.Location = new System.Drawing.Point(6, 3);
+            this.GestionarVentaLabel.Name = "GestionarVentaLabel";
+            this.GestionarVentaLabel.Size = new System.Drawing.Size(197, 34);
+            this.GestionarVentaLabel.TabIndex = 0;
+            this.GestionarVentaLabel.Text = "Gestionar Ventas";
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(630, 463);
-            this.Controls.Add(this.tabControl1);
+            this.Controls.Add(this.TienditaTabControl);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "MainForm";
             this.Text = "VerdurasForms";
@@ -475,7 +475,7 @@
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            this.tabControl1.ResumeLayout(false);
+            this.TienditaTabControl.ResumeLayout(false);
             this.GestionarVerdurasTabPage.ResumeLayout(false);
             this.GestionarVerdurasTabPage.PerformLayout();
             this.GestionarVentasTabPage.ResumeLayout(false);
@@ -506,18 +506,18 @@
         private Button EliminarVerduraButton;
         private Label label4;
         private Label label5;
-        private TabControl tabControl1;
+        private TabControl TienditaTabControl;
         private TabPage GestionarVerdurasTabPage;
         private TabPage GestionarVentasTabPage;
-        private Label label6;
+        private Label GestionarVentaLabel;
         private ListBox VerdurasmasVendidasListBox;
         private ListBox VentasListBox;
         private ListBox ClientesFrecuentesListBox;
         private Panel panel4;
         private Panel panel5;
         private ComboBox VerdurasComboBox;
-        private Label label8;
-        private Label label7;
+        private Label ClientesFrecuentesLabel;
+        private Label VerdurasmasVendidasLabel;
         private Label label12;
         private TextBox CantidadTextBox;
         private Label label11;

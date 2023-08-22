@@ -43,7 +43,7 @@ namespace EjercicioTienditaForms.Forms
 
 
 
-        #region Eventos
+        #region Eventos de vista de verduras
 
         private void GuardarVerduraButton_Click(object sender, EventArgs e)
         {
@@ -77,11 +77,7 @@ namespace EjercicioTienditaForms.Forms
             }
         }
 
-        private Verduras VerduraSeleccionada
-        {
-            get { return VerdurasListBox.SelectedItem as Verduras; }
-            set { VerdurasListBox.Items[VerdurasListBox.SelectedIndex] = value; }
-        }
+      
 
         private void ActualizarVerduraButton_Click(object sender, EventArgs e)
         {
@@ -119,6 +115,9 @@ namespace EjercicioTienditaForms.Forms
                 PrecioVerduraTextBox.Clear();
             }
         }
+        #endregion
+
+        #region Eventos de vista venta
 
         private void ProcesarVentaButton_Click(object sender, EventArgs e)
         {
@@ -153,7 +152,6 @@ namespace EjercicioTienditaForms.Forms
             }
         }
         #endregion
-
 
         #region Metodos 
 
@@ -211,7 +209,14 @@ namespace EjercicioTienditaForms.Forms
 
         #endregion
 
-     
+        #region propiedades
+        private Verduras VerduraSeleccionada
+        {
+            get { return VerdurasListBox.SelectedItem as Verduras; }
+            set { VerdurasListBox.Items[VerdurasListBox.SelectedIndex] = value; }
+        }
+
+        #endregion
 
 
 
