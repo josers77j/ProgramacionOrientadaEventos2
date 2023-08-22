@@ -1,0 +1,12 @@
+C:\Users\RabanTRJO\Documents\ProgramacionOrientadaEventos\Laboratorio2\Tarea2\EjercicioTienditaForms\ItemsLibrary\bin\Debug\net6.0\ItemsLibrary.deps.json
+C:\Users\RabanTRJO\Documents\ProgramacionOrientadaEventos\Laboratorio2\Tarea2\EjercicioTienditaForms\ItemsLibrary\bin\Debug\net6.0\ItemsLibrary.dll
+C:\Users\RabanTRJO\Documents\ProgramacionOrientadaEventos\Laboratorio2\Tarea2\EjercicioTienditaForms\ItemsLibrary\bin\Debug\net6.0\ItemsLibrary.pdb
+C:\Users\RabanTRJO\Documents\ProgramacionOrientadaEventos\Laboratorio2\Tarea2\EjercicioTienditaForms\ItemsLibrary\obj\Debug\net6.0\ItemsLibrary.csproj.AssemblyReference.cache
+C:\Users\RabanTRJO\Documents\ProgramacionOrientadaEventos\Laboratorio2\Tarea2\EjercicioTienditaForms\ItemsLibrary\obj\Debug\net6.0\ItemsLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RabanTRJO\Documents\ProgramacionOrientadaEventos\Laboratorio2\Tarea2\EjercicioTienditaForms\ItemsLibrary\obj\Debug\net6.0\ItemsLibrary.AssemblyInfoInputs.cache
+C:\Users\RabanTRJO\Documents\ProgramacionOrientadaEventos\Laboratorio2\Tarea2\EjercicioTienditaForms\ItemsLibrary\obj\Debug\net6.0\ItemsLibrary.AssemblyInfo.cs
+C:\Users\RabanTRJO\Documents\ProgramacionOrientadaEventos\Laboratorio2\Tarea2\EjercicioTienditaForms\ItemsLibrary\obj\Debug\net6.0\ItemsLibrary.csproj.CoreCompileInputs.cache
+C:\Users\RabanTRJO\Documents\ProgramacionOrientadaEventos\Laboratorio2\Tarea2\EjercicioTienditaForms\ItemsLibrary\obj\Debug\net6.0\ItemsLibrary.dll
+C:\Users\RabanTRJO\Documents\ProgramacionOrientadaEventos\Laboratorio2\Tarea2\EjercicioTienditaForms\ItemsLibrary\obj\Debug\net6.0\refint\ItemsLibrary.dll
+C:\Users\RabanTRJO\Documents\ProgramacionOrientadaEventos\Laboratorio2\Tarea2\EjercicioTienditaForms\ItemsLibrary\obj\Debug\net6.0\ItemsLibrary.pdb
+C:\Users\RabanTRJO\Documents\ProgramacionOrientadaEventos\Laboratorio2\Tarea2\EjercicioTienditaForms\ItemsLibrary\obj\Debug\net6.0\ref\ItemsLibrary.dll

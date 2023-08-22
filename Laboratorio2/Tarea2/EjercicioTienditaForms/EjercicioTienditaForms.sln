@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjercicioTienditaForms", "EjercicioTienditaForms\EjercicioTienditaForms.csproj", "{E2FAFFCE-0EE9-4828-9F2B-9E3678A14FCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItemsLibrary", "ItemsLibrary\ItemsLibrary.csproj", "{A04D08E4-7B5C-4623-8C66-3B6CFB1D2531}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2FAFFCE-0EE9-4828-9F2B-9E3678A14FCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2FAFFCE-0EE9-4828-9F2B-9E3678A14FCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2FAFFCE-0EE9-4828-9F2B-9E3678A14FCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2FAFFCE-0EE9-4828-9F2B-9E3678A14FCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A04D08E4-7B5C-4623-8C66-3B6CFB1D2531}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A04D08E4-7B5C-4623-8C66-3B6CFB1D2531}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A04D08E4-7B5C-4623-8C66-3B6CFB1D2531}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A04D08E4-7B5C-4623-8C66-3B6CFB1D2531}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF0DA851-24D9-408A-A697-00DB05ED3630}
+	EndGlobalSection
+EndGlobal
