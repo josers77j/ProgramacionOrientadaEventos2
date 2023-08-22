@@ -1,0 +1,8 @@
+Nombre:
+	Jose Ruben Trejo Granillo
+
+Carnet:
+	u20181049
+
+Repositorio:
+	https://github.com/josers77j/ProgramacionOrientadaEventos2/tree/main
